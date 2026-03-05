@@ -105,10 +105,16 @@ This will:
   - Manage darshan time slots per temple
   - View all bookings and approve / cancel
   - Basic analytics (bookings per day, peak hours approximation)
+  - 
 
 ### Notes
 
 - This codebase is structured for clarity and extensibility, not heavy micro-optimizations.
 - Email sending uses Nodemailer; configure real SMTP credentials in `.env` to send real emails. Otherwise, emails will be logged to the console.
 - QR codes are generated as data URLs and stored with each booking for verification.
+<img width="1366" height="766" alt="Darshan Ease - Google Chrome 06-03-2026 01_35_32" src="https://github.com/user-attachments/assets/89b47787-cf87-4121-92d9-72ee60e44656" />
+<img width="1366" height="766" alt="Darshan Ease - Google Chrome 06-03-2026 01_35_21" src="https://github.com/user-attachments/assets/f26e135a-788f-402f-9c4e-3d5558e4fe50" />
+<img width="1366" height="766" alt="Darshan Ease - Google Chrome 06-03-2026 01_35_12" src="https://github.com/user-attachments/assets/aae517ae-34f6-4670-960c-940be8901b0a" />
+<img width="1366" height="766" alt="Darshan Ease - Google Chrome 06-03-2026 01_34_56" src="https://github.com/user-attachments/assets/1ba05a9a-1add-46cd-86d0-1d50a0760441" />
+
 
